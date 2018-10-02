@@ -22,12 +22,11 @@ print('Let\'s get started')
 #s=”Acadview” 
 #course=”Python” 
 #fees=5000
-     s="Acadview"
-     print(s)
-     course="Python"
-     print(course)
-     fees=5000
-     print(fees)
+s="Acadview"
+course="Python"
+fees=5000
+print('%s %s %d' %(s,course,fees))
+
 
 
 #Q.6- Find the area of circle 
