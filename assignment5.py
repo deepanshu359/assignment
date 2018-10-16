@@ -1,5 +1,4 @@
 #Q.1
-
 f=open(r"c:\python\daku.txt","r")
 f1=f.readlines()
 for i in f1:
