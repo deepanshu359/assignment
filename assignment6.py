@@ -11,13 +11,13 @@ def email():
 
 email()
 
+
 #Q.2
 import re 
   
 def isValid(d): 
     daku = re.compile("(0/+91)?[6-9][0-9]{9}") 
-    return daku.match(d) 
-   
+    return daku.match(d)   
 d = "9625657805"
 if (isValid(d)):  
     print ("Valid Number")      
