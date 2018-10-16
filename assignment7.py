@@ -1,6 +1,5 @@
 #Q.1
 import datetime
-
 today = datetime.date.today()
 print (today)
 
@@ -14,7 +13,6 @@ while(break_count<total_breaks):
     time.sleep(10)
     webbrowser.open("https://www.youtube.com/watch?v=TKz5G8qVI-c")
     break_count +=1
-
     
 #Q.3
 import os 
